@@ -1,31 +1,37 @@
 ^XA
-^FO^GB570,70,4^FS
-^FO,^GB570,200,4^FS
-^FO,^GB570,365,4^FS
-^FO,^GB570,912,4^FS
+^PW575
+^MNM
+^LL812,y
 
-^FO5,30^A@N,18,10,E:AMI000.FNT^FD senderCity ^FS(Sender CIty)
-^FO200,30^A@N,18,10,E:AMI000.FNT^FD receiverCity  |^FS(Receiver CIty)
-^FO430,30^A@N,18,10,E:AMI000.FNT^FD pageIndex ^FS(Pages Index )
+^FO5,50^A@N,18,10,E:AMI000.FNT^FD senderCity ^FS(Sender CIty)
+^FO200,50^A@N,18,10,E:AMI000.FNT^FD receiverCity  |^FS(Receiver CIty)
+^FO430,50^A@N,18,10,E:AMI000.FNT^FD pageIndex ^FS(Pages Index )
 
-^FO5,90^A@N,18,10,E:AMI000.FNT^FD senderIdent / senderName ^FS
-^FO5,120^A@N,18,10,E:AMI000.FNT^FD senderAddress ^FS
-^FO5,140^A@N,18,10,E:AMI000.FNT^FD senderPhone ^FS
-^FO5,160^A@N,18,10,E:AMI000.FNT^FD senderContactPerson ^FS
-^FO5,180^A@N,18,10,E:AMI000.FNT^FD senderCity ^FS(Sender CIty)
+^FO0,70^GFA,02304,02304,00072,:Z64:
+eJxjYBgFo2AUjIJRMJzBf+qAfwPtj1EwCqgJAAHXR7g=:16CA
 
-^FO5,215^A@N,18,10,E:AMI000.FNT^FD receiverIdent / receiverName ^FS
-^FO5,240^A@N,18,10,E:AMI000.FNT^FD receiverAddress ^FS
-^FO5,260^A@N,18,10,E:AMI000.FNT^FD receiverPhone ^FS
-^FO5,280^A@N,18,10,E:AMI000.FNT^FD receiverName ^FS
-^FO5,300^A@N,18,10,E:AMI000.FNT^FD receiverCity ^FS
-^FO5,340^A@N,18,10,E:AMI000.FNT^FD serviceName ^FS(Service Name)
-^FO400,340^A@N,18,10,E:AMI000.FNT^FD paymentType^FS(Payment Type)
+^FO5,110^A@N,18,10,E:AMI000.FNT^FD senderIdent / senderName ^FS
+^FO5,130^A@N,18,10,E:AMI000.FNT^FD senderAddress ^FS
+^FO5,170^A@N,18,10,E:AMI000.FNT^FD senderPhone ^FS
+^FO5,190^A@N,18,10,E:AMI000.FNT^FD senderContactPerson ^FS
+^FO5,210^A@N,18,10,E:AMI000.FNT^FD senderCity ^FS(Sender CIty)
 
-^FO5,380^A@N,10,6,E:AMI000.FNT^FD SeniSvna: comment ^FS
-^FO5,410^A@N,18,10,E:AMI000.FNT^FD wona: weight ^FS
-^FO200,410^A@N,18,10,E:AMI000.FNT^FD fasi: price ^FS
+^FO0,220^GFA,02304,02304,00072,:Z64:
+eJxjYBgFo2AUjIJRMJzBf+qAfwPtj1EwCqgJAAHXR7g=:16CA
 
-^FO40,450^BY3^B3N,,80^FD12345678^FS(barcode)
-^FO150,610^ADN36,20^FDExpress Line  551 77 77 88  ^FS(Footer)
+^FO5,260^A@N,18,10,E:AMI000.FNT^FD receiverIdent / receiverName ^FS
+^FO5,280^A@N,18,10,E:AMI000.FNT^FD receiverAddress ^FS
+^FO5,320^A@N,18,10,E:AMI000.FNT^FD receiverPhone ^FS
+^FO5,340^A@N,18,10,E:AMI000.FNT^FD receiverName ^FS
+^FO5,360^A@N,18,10,E:AMI000.FNT^FD receiverCity ^FS
+^FO5,380^A@N,18,10,E:AMI000.FNT^FD serviceName ^FS(tarif type Name)
+^FO400,380^A@N,18,10,E:AMI000.FNT^FD paymentType^FS(Payment Type)
+
+^FO5,410^A@N,10,6,E:AMI000.FNT^TBN,600,200
+^FD SeniSvna: comment ^FS
+^FO5,470^A@N,18,10,E:AMI000.FNT^FD wona: weight ^FS
+^FO200,470^A@N,18,10,E:AMI000.FNT^FD fasi: price ^FS
+
+^FO40,500^BY3^B3N,,80^FDbarcode^FS(barcode)
+^FO150,620^ADN36,20^FDExpress Line  551 77 77 88  ^FS(Footer)
 ^XZ
